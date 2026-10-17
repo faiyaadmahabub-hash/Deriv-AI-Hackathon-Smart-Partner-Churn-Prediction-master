@@ -29,7 +29,7 @@ From the repository root:
 python -m streamlit run dashboard/app.py --server.headless true --server.address 127.0.0.1 --server.port 8113 --browser.gatherUsageStats false
 ```
 
-T3 `preview_open` reached the page at `http://127.0.0.1:8113`, but two screenshot attempts timed out and a later attempt reported no available browser host. The preview [assets/dashboard-local.png](assets/dashboard-local.png) is explicitly reused from the real 8112 capture of the identical companion source, visually inspected after charts finished loading. It is not claimed as a screenshot from this private instance. It shows a separate 200-row synthetic table, not trained-model output. Displayed business values are illustrative calculations.
+T3 `preview_open` reached the page at `http://127.0.0.1:8113`. Initial screenshot attempts timed out; after browser reconnection a new dedicated tab successfully captured this source edition with `preview_snapshot({save:true})`. The preview [assets/dashboard-local.png](assets/dashboard-local.png) was copied from that actual 8113 capture. It shows a separate 200-row synthetic table, not trained-model output. Displayed business values are illustrative calculations.
 
 ## Scope and outstanding work
 

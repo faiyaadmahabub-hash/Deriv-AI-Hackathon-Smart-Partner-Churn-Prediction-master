@@ -6,7 +6,7 @@ The project combines a synthetic-data generator, an XGBoost training pipeline an
 
 ![Local synthetic partner dashboard](docs/assets/dashboard-local.png)
 
-*Real local Streamlit capture from the identical companion source, 17 October 2026. This private edition was independently run with AppTest; its browser capture was unavailable. The dashboard uses a separate 200-row synthetic table and hand-coded risk rules. Displayed dollars, risk levels and interventions are illustrative, not measured commercial outcomes or trained-model predictions.*
+*Real local Streamlit capture from this source edition, 17 October 2026. The dashboard uses a separate 200-row synthetic table and hand-coded risk rules. Displayed dollars, risk levels and interventions are illustrative, not measured commercial outcomes or trained-model predictions.*
 
 ## What is implemented
 
